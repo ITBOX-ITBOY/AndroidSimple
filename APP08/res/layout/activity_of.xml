@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ed_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="存储文件名">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="存储文件内容"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           	android:onClick="save"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="read"
+            android:text="读取" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/save2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           	android:onClick="save"
+            android:text="保存2" />
+
+        <Button
+            android:id="@+id/read2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="read"
+            android:text="读取2" />
+
+    </LinearLayout>
+
+</LinearLayout>
