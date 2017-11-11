@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APP05</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn1">测试常用简单的Component</string>
+    <string name="btn2">测试菜单Component</string>
+    <string name="btn3">测试进度条Component</string>
+    <string name="btn4">测试对话框Component</string>
+    <string name="title_activity_simple_component">SimpleComponentActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APP02</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn1">一般性调用</string>
+    <string name="btn2">回调调用</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="back">返回</string>
+    <string name="backResult">带结果返回</string>
+
+</resources>
